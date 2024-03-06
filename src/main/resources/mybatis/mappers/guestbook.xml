@@ -10,8 +10,6 @@
 		where no=#{no}
 	</delete>
 
-
-
 	<!-- 등록하기 -->
 	<insert id="insert" parameterType="com.javaex.vo.GuestbookVo">
 		insert into guest
